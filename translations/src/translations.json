@@ -3801,7 +3801,8 @@
       "showFilters": "Filter anzeigen",
       "selectRange": "Zeitraum auswählen",
       "outOfRangeError": "Datum außerhalb des Bereichs",
-      "startingFrom": "ab {{date}}"
+      "startingFrom": "ab {{date}}",
+      "furtherDates": "Weitere Termine"
     },
     "am": {
       "address": "ኣድራሻ",
@@ -4015,7 +4016,8 @@
       "showFilters": "Show filters",
       "selectRange": "Select Range",
       "outOfRangeError": "Date out of range",
-      "startingFrom": "from {{date}}"
+      "startingFrom": "from {{date}}",
+      "furtherDates": "More dates"
     },
     "es": {
       "address": "Dirección",
