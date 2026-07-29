@@ -73,7 +73,7 @@ const NewsPage = ({ languageCode, regionCode, region }: RegionRouteProps): React
       <Stack gap={1}>
         {showNewsSourceFilter && (
           <NewsSourceFilterButtonGroup
-            setValue={setNewsSourceFilter}
+            setValue={value => (value !== null ? setNewsSourceFilter(value) : null)}
             options={NEWS_SOURCE_FILTERS}
             value={newsSourceFilter}
             getLabel={getLabel}

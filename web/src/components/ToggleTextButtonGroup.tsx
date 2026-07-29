@@ -30,7 +30,7 @@ const StyledToggleButton = styled(ToggleButton)(({ theme }) => ({
 }))
 
 type ToggleButtonGroupProps<T extends string> = {
-  setValue: (T: T) => void
+  setValue: (T: T | null) => void
   options: T[]
   value: T
   getLabel: (value: T) => string
