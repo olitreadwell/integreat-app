@@ -24,7 +24,7 @@ import ChatFab from './components/ChatFab'
 import { defaultHeader } from './components/DefaultHeader'
 import Icon from './components/base/Icon'
 import Text from './components/base/Text'
-import { TAB_NAVIGATOR_ID } from './constants'
+import { TAB_HEIGHT, TAB_NAVIGATOR_ID } from './constants'
 import { NavigationProps, RoutesParamsType } from './constants/NavigationTypes'
 import buildConfig from './constants/buildConfig'
 import useLoadRegionContent from './hooks/useLoadRegionContent'
@@ -43,8 +43,6 @@ const CategoriesStack = createStackNavigator<RoutesParamsType>()
 const PlacesStack = createStackNavigator<RoutesParamsType>()
 const EventsStack = createStackNavigator<RoutesParamsType>()
 const NewsStack = createStackNavigator<RoutesParamsType>()
-
-const TAB_HEIGHT = 60
 
 const CategoriesStackScreen = () => (
   <CategoriesStack.Navigator screenOptions={{ header: defaultHeader, animation: 'none' }}>
